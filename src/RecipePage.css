@@ -1,0 +1,28 @@
+.RecipePage {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.RecipePage .title {
+    letter-spacing: 7px;
+    font-size: 40px;
+}
+
+.RecipePage .image {
+    width: 100%;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 60%;
+}
+
+.RecipePage .ingredients li,
+.RecipePage .instructions li {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.RecipePage .instructions li {
+    margin-bottom: 15px;
+}

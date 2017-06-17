@@ -1,5 +1,4 @@
 import React, { Component } from "react"; // looks in node_modules
-import logo from "./logo.svg";
 import "./App.css";
 import Recipe from "./Components/Recipe.js";
 import { defaultRecipes } from "./data.js";

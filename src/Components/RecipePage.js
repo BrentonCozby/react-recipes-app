@@ -1,5 +1,4 @@
 import React from "react";
-import "../RecipePage.css";
 
 const RecipePage = ({ recipe }) => {
 	const { title, image, description, ingredients, instructions } = recipe;
@@ -7,7 +6,7 @@ const RecipePage = ({ recipe }) => {
 	return (
 		<div className="RecipePage">
 			<h2 className="title">{title}</h2>
-			<img src={image} alt={title} />
+			<img className="image" src={image} alt={title} />
 			<p className="description">{description}</p>
 			<h4>Ingredients</h4>
 			<ul className="ingredients">

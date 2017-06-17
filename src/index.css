@@ -12,3 +12,241 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Comfortaa', sans-serif;
     color: #f65;
 }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comfortaa', sans-serif;
+    color: #f65;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(0, 0, 0, .05);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.AllRecipes {
+    padding: 8rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.recipes-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1150px;
+}
+
+.AddRecipe {
+    display: table;
+    width: 100%;
+}
+
+.AddRecipe form {
+    padding: 1rem;
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.inner-form {
+    width: 100%;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.inner-form input {
+    width: 75%;
+    padding: .5rem;
+    text-align: center;
+}
+
+.join-btn {
+    padding: 1rem;
+    border: 1px solid #aaa;
+    display: inline-block;
+}
+
+.box {
+    width: 350px;
+    height: 452px;
+    display: flex;
+}
+
+.new-post {
+    background-color: rgba(0, 0, 0, 0.04);
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 1rem;
+    color: rgba( 0, 0, 0, .3);
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: .25rem;
+}
+
+.post {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .15);
+    text-decoration: none;
+    margin: 1rem;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: .25rem;
+}
+
+.post .image {
+    width: 350px;
+    height: 350px;
+    flex: 0 0 350px;
+}
+
+.post .description {
+    display: flex;
+    flex: 1;
+    padding-left: 25px;
+    font-size: 18px;
+    color: rgba( 0, 0, 0, .8 );
+    font-weight: 300;
+    align-items: center;
+}
+
+.detail {
+    border-radius: .25rem;
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.detail .image {
+    width: 600px;
+    height: 600px;
+    flex: 0 0 600px;
+}
+
+.detail .text {
+    padding: 30px;
+}
+
+.detail .title {
+    display: flex;
+    flex: 1;
+    font-size: 48px;
+    align-items: center;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .8);
+}
+
+.detail .label {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.detail .description {
+    display: flex;
+    flex: 1;
+    font-size: 16px;
+    align-items: center;
+    font-weight: 300;
+    color: rgba(0, 0, 0, .8);
+}
+
+.description li {
+    width: 100%;
+}
+
+.plus {
+    width: 34px;
+    height: 33px;
+    border-style: none;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.blur {
+    filter: blur(7px);
+}
+
+.close {
+    opacity: 0.5;
+    margin-top: 60px;
+    margin-right: 60px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.close img {
+    width: 34px;
+    height: 34px;
+}
+
+.delete {
+    background-color: rgb(242, 92, 94);
+    font-size: 14px;
+    padding: 6px 9px 7px 9px;
+    letter-spacing: 0.46px;
+    margin-top: 18px;
+    margin-left: 18px;
+    border-radius: .25rem;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    position: absolute;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.RecipePage {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.RecipePage .title {
+    letter-spacing: 7px;
+    font-size: 40px;
+}
+
+.RecipePage .image {
+    width: 100%;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 60%;
+}
+
+.RecipePage .ingredients li,
+.RecipePage .instructions li {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.RecipePage .instructions li {
+    margin-bottom: 15px;
+}

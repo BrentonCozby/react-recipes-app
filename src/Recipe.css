@@ -1,16 +1,16 @@
-.Card {
+.Recipe {
     width: 280px;
     border: 3px solid #BADA55;
     margin: 15px;
 }
 
-.Card .image {
+.Recipe .image {
     height: 200px;
     background-position: center;
     background-size: cover;
 }
 
-.Card .title {
+.Recipe .title {
     margin: 0;
     padding: 20px;
     font-size: 20px;
